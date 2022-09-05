@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <title>🐘 PHP Form 🐘</title>
+</head>
+
+<body>
+    <div>
+        <form action="../controller/action.php" method="POST">
+            <h1>Contact form</h1>
+            <fieldset>
+                <legend>Personal info</legend>
+                <label for="first name">First name</label>
+                <input type="text" name="First name" placeholder="First name" id="first name" />
+                </br>
+                <label for="last name">Last name</label>
+                <input type="text" name="Last name" placeholder="Last name" id="last name" />
+                </br>
+                <label for="email">Email</label>
+                <input type="email" name="Email" placeholder="Email" id="email" />
+                </br>
+                <label for="phone">Phone</label>
+                <input type="text" name="Phone" placeholder="Phone" id="phone" />
+                </br>
+                <label for="birthday">Birthday</label>
+                <input type="date" name="Birthday" min="1900-01-01" id="birthday" />
+                </br>
+                <label for="gender">Gender</label>
+                <input type="radio" name="Gender" id="gender" value="Male">Male</input>
+                <input type="radio" name="Gender" id="gender" value="Female">Female</input>
+                <input type="radio" name="Gender" id="gender" value="Other">Other</input>
+            </fieldset>
+            </br>
+            </fieldset>
+            <fieldset>
+                <legend>Your profile</legend>
+                <label for="description">About you</label></br>
+                <textarea type="text" name="About you" id="description"></textarea>
+                </br>
+                    <label for="role">Select role</label>
+                    <select name="Role" id="role">
+                        <option value="1">Backend developer</option>
+                        <option value="2">Frontend developer</option>
+                        <option value="3">Fullstack developer</option>
+                    </select>
+                    <br/>
+                    <label for="interst">Interest</label><br/>
+                    <input type="checkbox" name="Interest" id="interest">Data base</input>
+                    <input type="checkbox" name="Interest" id="interest">Design</input>
+                    <input type="checkbox" name="Interest" id="interest">Business</input>
+                    <input type="checkbox" name="Interest" id="interest">Unit test</input>
+                    <input type="checkbox" name="Interest" id="interest">Cloud development</input>
+                    <input type="checkbox" name="Interest" id="interest">Web development</input>
+            </fieldset>
+            <button id="send">Send</button>
+            <button type="reset" id="reset">Reset</button>
+        </form>
+    </div>
+</body>
+
+</html>
