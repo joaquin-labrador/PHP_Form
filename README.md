@@ -5,6 +5,6 @@ it is a practice for my first knowledge in PHP 🐘
 ## Forms 📸
 
 ### Light-mode 🤍
-![Light-mode](readmeImg/light-mode.jpg)
+![Light-mode](readmeImg/light-mode.png)
 ### Dark-mode 🖤
-![Dark-mode](readmeImg/dark-mode.jpg)
+![Dark-mode](readmeImg/dark-mode.png)
